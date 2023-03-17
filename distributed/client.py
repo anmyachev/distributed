@@ -3067,7 +3067,7 @@ class Client(SyncMethodMixin):
                     "submitting_task": getattr(thread_state, "key", None),
                     "fifo_timeout": fifo_timeout,
                     "actors": actors,
-                    "code": self._get_computation_code(),
+                    "code": "<Code not available>",
                 }
             )
             return futures
